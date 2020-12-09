@@ -63,3 +63,42 @@
     min-height: 130px;
   }
 }
+
+/*******************
+1200px
+********************/
+
+@media (max-width: 1200px) {
+
+  body {
+    background: aqua;
+  }
+
+  #header {
+    float: left;
+    width: 50%;
+    margin-top: 10%;
+  }
+
+  #misc {
+    float: left;
+    clear: left;
+    width: 55%;
+  }
+
+  #misc #call_to_action, #logo {
+    margin-top: 0;
+  }
+
+  #phone {
+    float: right;
+  }
+
+  #misc blockquote {
+    display: none;
+  }
+
+  #wrapper {
+    width: 90%;
+  }
+}
